@@ -1,0 +1,14 @@
+  App running at:
+  - Local:   http://localhost:8080/
+  - Network: http://192.168.8.96:8080/
+
+
+
+Products:
+Resources
+  http://localhost:3000/posts
+  http://localhost:3000/comments
+  http://localhost:3000/profile
+
+  Home
+  http://localhost:3000

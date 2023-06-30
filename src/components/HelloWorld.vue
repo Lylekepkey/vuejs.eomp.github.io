@@ -1,59 +1,57 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex" target="_blank" rel="noopener">vuex</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-  </div>
+  <!-- Section -->
+  <div class="body">
+            
+            <div class="section-outer">
+              <div class="section-inner">
+                  <div class="gallery">
+                  <a href="./html/products.html"><img src="https://i.postimg.cc/R0Rp4JqX/0007241-nescafe-gold-instant-espresso-coffee-200g-540.png" loading="lazy"></a>
+                  <div class="caption">
+                      <p>Enjoy your morning with a fresh cup of coffee</p>
+                  </div>
+                  </div>
+                  <div>
+                  <a href="./html/products.html"><img src="https://i.postimg.cc/BvS9T0K7/blacksmith-large-cup-14200252-1.png" loading="lazy"></a>
+                  <div class="caption">
+                    <p>
+                      <br>How else would you be able to enjoy <br>
+                    favorite cup of jo. Without your best Mug
+                    </p>
+                  </div>
+                  </div>
+                  <div>
+                  <a href="./html/products.html"><img src="https://i.postimg.cc/xT1631xz/4300007.png" loading="lazy"></a>
+                  <div class="caption">
+                      <p>For stronger and more refined <br> taste, JOIN THE DARKSIDE 👿</p>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        <!-- Section End -->
 </template>
 
 <script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
-</script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
+</script>
+<style>
+.body {
+  background-color: black;
+  color: wheat;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+img {
+  width: 230px;
+    aspect-ratio: 8/8;
+    object-fit: contain;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+.section-outer {
+    /* background-color: azure; */
+    display: inline-block;
+    padding-top: 50px ;
+    width: 900px;
 }
-a {
-  color: #42b983;
+.section-inner {
+    display: flex;
+    justify-content: center;
 }
 </style>
